@@ -10,7 +10,13 @@
     {
       "name": "yyyy-mm-dd-hh-mm-ss",
       "title": "yyyy-mm-dd-hh-mm-ss",
-      "description": "Get current date-time and copy to clipboard with YYYY-MM-DD HH:mm:ss format",
+      "description": "Get current date-time and copy to clipboard with YYYY-MM-DD HH:mm:ss format like MySQL Datetime type",
+      "mode": "no-view"
+    },
+    {
+      "name": "yyyy-mm-dd",
+      "title": "yyyy-mm-dd",
+      "description": "Get current date-time and copy to clipboard with YYYY-MM-DD format like MySQL Date type",
       "mode": "no-view"
     },
     {
@@ -22,7 +28,7 @@
     {
       "name": "unixtime",
       "title": "unixtime",
-      "description": "Get current date-time and copy to clipboard with Unixtime format",
+      "description": "Get current date-time and copy to clipboard with unix timestamp format",
       "mode": "no-view"
     }
   ],
