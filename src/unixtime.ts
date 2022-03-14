@@ -1,10 +1,10 @@
 import dayjs from "dayjs";
-import {copyToClipboard} from "./main";
+import { copyToClipboard } from "./main";
 
 const main = async () => {
   const now = dayjs().unix().toString();
 
-  await copyToClipboard(now)
-}
+  await copyToClipboard(now);
+};
 
 export default main;
